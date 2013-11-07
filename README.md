@@ -13,5 +13,25 @@ Installation
 
 
 
+
 Configuration
 -------------------------------------------------------------------------------
+
+`config/application.conf.php`:
+
+~~~~ php
+<?php
+return array(
+    'modules' => array(
+	// ...
+        'ZfcUser',
+        'WebsafeZfModZfcUserI18nPlPl',
+	// ...
+    ),
+    // ...
+    'translator' => array(
+	'locale'  => 'pl_PL',
+	// ...
+    ),
+    // ...
+~~~~
