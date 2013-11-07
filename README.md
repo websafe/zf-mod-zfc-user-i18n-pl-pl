@@ -17,7 +17,8 @@ Installation
 Configuration
 -------------------------------------------------------------------------------
 
-`config/application.conf.php`:
+In `config/application.conf.php` add `WebsafeZfModZfcUserI18nPlPl` after
+`ZfcUser`:
 
 ~~~~ php
 <?php
@@ -28,6 +29,12 @@ return array(
         'WebsafeZfModZfcUserI18nPlPl',
 	// ...
     ),
+~~~~
+
+
+In `config/global.conf` or `module/Application/config/module.conf.php` add:
+
+~~~~ php
     // ...
     'translator' => array(
 	'locale'  => 'pl_PL',
@@ -35,3 +42,4 @@ return array(
     ),
     // ...
 ~~~~
+
