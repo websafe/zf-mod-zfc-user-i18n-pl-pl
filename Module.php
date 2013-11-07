@@ -1,0 +1,34 @@
+<?php
+
+namespace WebsafeZfModZfcUserI18nPlPl;
+
+/**
+ * Module
+ */
+class Module
+{
+    /**
+     * getConfig.
+     * 
+     * @return array
+     */
+    public function getConfig()
+    {
+        return include __DIR__ . '/config/module.config.php';
+    }
+    /**
+     * getAutoloaderConfig.
+     * 
+     * @return array
+     */
+    public function getAutoloaderConfig()
+    {
+        return array(
+            'Zend\Loader\StandardAutoloader' => array(
+                'namespaces' => array(
+                    __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
+                ),
+            ),
+        );
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "name": "websafe/zf-mod-zfc-user-i18n-pl-pl",
+    "description": "Polish (pl_PL) translation for the [ZF-Commons/ZfcUser] module. Polskie tłumaczenie dla modułu [ZF-Commons/ZfcUser].",
+    "version": "0.0.1",
+    "type": "zf-module",
+    "license": "MIT",
+    "keywords": [
+        "zf2",
+        "module",
+        "translation",
+        "i18n",
+        "ZfcUser",
+        "PL",
+        "pl_PL",
+        "polski",
+        "polish",
+        "polskie",
+        "tłumaczenie"
+    ],
+    "homepage": "https://github.com/websafe/zf-mod-zfc-user-i18n-pl-pl",
+    "authors": [
+        {
+            "name": "Thomas Szteliga",
+            "email": "ts@websafe.pl",
+            "homepage": "https://websafe.pl/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@websafe.pl",
+        "issues": "",
+        "source": ""
+    },
+    "require": {
+        "php": ">=5.3.3",
+    },
+    "autoload": {
+        "psr-0": {
+            "WebsafeZfModZfcUserI18nPlPl": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
