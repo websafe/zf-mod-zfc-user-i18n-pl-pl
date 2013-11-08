@@ -69,6 +69,31 @@ in Your application.
 
 
 
+Screenshots
+-------------------------------------------------------------------------------
+
+
+### Login screen
+
+![Alt text](./assets/screenshot-login.png "Optional title")
+
+
+
+### Register screen
+
+![Alt text](./assets/screenshot-register.png "Optional title")
+
+
+
+### Change e-mail screen
+
+![Alt text](./assets/screenshot-change-email.png "Optional title")
+
+
+
+### Change password screen
+
+![Alt text](./assets/screenshot-change-password.png "Optional title")
 
 
 
