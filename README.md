@@ -14,7 +14,11 @@ Add `websafe/zf-mod-zfc-user-i18n-pl-pl` in the `required` section of
 `composer.json`:
 
 ~~~~ javascript
+    "require": {
+        "zf-commons/zfc-user": "dev-master",
+        "websafe/zf-mod-zfc-user-i18n-pl-pl": "dev-master",
 ~~~~
+
 
 and run:
 
@@ -29,6 +33,8 @@ Configuration
 -------------------------------------------------------------------------------
 
 
+### Enable the module
+
 In `config/application.conf.php` add `WebsafeZfModZfcUserI18nPlPl` after 
 `ZfcUser`:
 
@@ -36,26 +42,29 @@ In `config/application.conf.php` add `WebsafeZfModZfcUserI18nPlPl` after
 <?php
 return array(
     'modules' => array(
-	// ...
+        // ...
         'ZfcUser',
         'WebsafeZfModZfcUserI18nPlPl',
-	// ...
+        // ...
     ),
 ~~~~
 
+
+
+### Set the locale
 
 In `config/global.conf` or `module/Application/config/module.conf.php` add:
 
 ~~~~ php
     // ...
     'translator' => array(
-	'locale'  => 'pl_PL',
-	// ...
+        'locale'  => 'pl_PL',
+        // ...
     ),
     // ...
 ~~~~
 
-But this may not be required - depend on how the locale is initialized
+But this may not be required - depends on how the locale is initialized
 in Your application.
 
 
