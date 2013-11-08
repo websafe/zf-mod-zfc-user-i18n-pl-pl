@@ -10,6 +10,17 @@ Polskie tłumaczenie dla modułu [ZF-Commons/ZfcUser].
 Installation
 -------------------------------------------------------------------------------
 
+Add `websafe/zf-mod-zfc-user-i18n-pl-pl` in the `required` section of
+`composer.json`:
+
+~~~~ javascript
+~~~~
+
+and run:
+
+~~~~
+composer update
+~~~~
 
 
 
@@ -17,7 +28,8 @@ Installation
 Configuration
 -------------------------------------------------------------------------------
 
-In `config/application.conf.php` add `WebsafeZfModZfcUserI18nPlPl` after
+
+In `config/application.conf.php` add `WebsafeZfModZfcUserI18nPlPl` after 
 `ZfcUser`:
 
 ~~~~ php
@@ -43,3 +55,12 @@ In `config/global.conf` or `module/Application/config/module.conf.php` add:
     // ...
 ~~~~
 
+But this may not be required - depend on how the locale is initialized
+in Your application.
+
+
+
+
+
+
+[ZF-Commons/ZfcUser]: https://github.com/ZF-Commons/ZfcUser "ZfcUser is a user registration and authentication module for Zend Framework 2."
