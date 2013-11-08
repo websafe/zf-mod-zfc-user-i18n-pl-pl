@@ -112,6 +112,10 @@ msgstr "Pomyślnie zmieniono hasło."
 msgid "Unable to update your password. Please try again."
 msgstr "Nie udało się zaktualizować Twojego hasła. Proszę spróbuj ponownie."
 
+#: view/zfc-user/user/changepassword.phtml:42
+msgid "Submit"
+msgstr "Prześlij"
+
 #: view/zfc-user/user/index.phtml:2
 msgid "Hello"
 msgstr "Witaj"
