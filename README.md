@@ -75,7 +75,7 @@ Screenshots
 
 ### Login screen
 
-![Alt text](../raw/master/assets/screenshot-login.png "Optional title")
+![Screenshot of am example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale](../raw/master/assets/screenshot-login.png "Screenshot of am example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale")
 
 
 * * *
@@ -83,7 +83,7 @@ Screenshots
 
 ### Register screen
 
-![Alt text](../raw/master/assets/screenshot-register.png "Optional title")
+![Screenshot of am example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale](../raw/master/assets/screenshot-register.png "Screenshot of am example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale")
 
 
 * * *
@@ -91,7 +91,7 @@ Screenshots
 
 ### Change e-mail screen
 
-![Alt text](../raw/master/assets/screenshot-change-email.png "Optional title")
+![Screenshot of am example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale](../raw/master/assets/screenshot-change-email.png "Screenshot of am example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale")
 
 
 * * *
@@ -99,7 +99,7 @@ Screenshots
 
 ### Change password screen
 
-![Alt text](../raw/master/assets/screenshot-change-password.png "Optional title")
+![Screenshot of am example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale](../raw/master/assets/screenshot-change-password.png "Screenshot of am example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale")
 
 
 * * *
