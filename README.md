@@ -99,7 +99,7 @@ Screenshots
 
 ### Change password screen
 
-![Screenshot of an example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale](https://raw.github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/master/assets/assets/screenshot-change-password.png "Screenshot of an example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale")
+![Screenshot of an example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale](https://raw.github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/master/assets/screenshot-change-password.png "Screenshot of an example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale")
 
 
 * * *
