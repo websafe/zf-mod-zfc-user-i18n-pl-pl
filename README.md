@@ -78,11 +78,15 @@ Screenshots
 ![Alt text](../raw/master/assets/screenshot-login.png "Optional title")
 
 
+* * *
+
 
 ### Register screen
 
 ![Alt text](../raw/master/assets/screenshot-register.png "Optional title")
 
+
+* * *
 
 
 ### Change e-mail screen
@@ -90,11 +94,15 @@ Screenshots
 ![Alt text](../raw/master/assets/screenshot-change-email.png "Optional title")
 
 
+* * *
+
 
 ### Change password screen
 
 ![Alt text](../raw/master/assets/screenshot-change-password.png "Optional title")
 
+
+* * *
 
 
 [ZF-Commons/ZfcUser]: https://github.com/ZF-Commons/ZfcUser "ZfcUser is a user registration and authentication module for Zend Framework 2."
