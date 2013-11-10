@@ -19,7 +19,7 @@ Polskie tłumaczenie / paczka językowa dla modułu [ZF-Commons/ZfcUser].
 * * *
 
 
-Installation <a id="installation"></a>
+Installation
 --------------------------------------------------------------------------------
 
 Chdir into Your projects root directory (where `composer.json` resides)
@@ -31,7 +31,7 @@ composer require websafe/zf-mod-zfc-user-i18n-pl-pl:dev-master --prefer-dist
 
 
 
-Configuration <a id="configuration"></a>
+Configuration
 --------------------------------------------------------------------------------
 
 ### Enabling the language pack module in Your ZF2 application
@@ -72,7 +72,7 @@ In `config/global.conf` or `module/Application/config/module.conf.php` add:
 
 
 
-Updating <a id="updating"></a>
+Updating
 --------------------------------------------------------------------------------
 
 Chdir into projects root directory (where `composer.json` resides)
@@ -85,7 +85,7 @@ composer update websafe/zf-mod-zfc-user-i18n-pl-pl
 
 
 
-Contributing <a id="contributing"></a>
+Contributing
 --------------------------------------------------------------------------------
 
 If You want to help with the polish translation, just [edit pl_PL.po] located
@@ -94,7 +94,7 @@ with editing `.po` files - simply [report an issue].
 
 
 
-Compiling .po files to .mo files <a id="compiling"></a>
+Compiling .po files to .mo files
 --------------------------------------------------------------------------------
 
 ~~~~ bash
