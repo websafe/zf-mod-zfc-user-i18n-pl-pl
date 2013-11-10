@@ -1,6 +1,7 @@
 TODO
 ====
 
- + Simplify `README.md`.
+ + Keep `README.md` simple stupid.
+ 
 
 

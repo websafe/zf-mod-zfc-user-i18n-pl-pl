@@ -4,7 +4,7 @@ WebsafeZfModZfcUserI18nPlPl
 Polish **pl_PL** translation / language pack module for the [ZF-Commons/ZfcUser]
 module.
 
-Polskie tłumaczenie / paczka językowa dla modułu [ZF-Commons/ZfcUser].
+Moduł polskiego tłumaczenia / paczka językowa dla modułu [ZF-Commons/ZfcUser].
 
 
 * * *
