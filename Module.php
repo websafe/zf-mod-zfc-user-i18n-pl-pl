@@ -2,24 +2,19 @@
 
 namespace WebsafeZfModZfcUserI18nPlPl;
 
+use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
+use Zend\ModuleManager\Feature\ConfigProviderInterface;
+
 /**
  * Module
  */
-class Module
+class Module implements AutoloaderProviderInterface, ConfigProviderInterface
 {
     /**
-     * getConfig.
+     * Return an array for passing to Zend\Loader\AutoloaderFactory.
      * 
      * @return array
-     */
-    public function getConfig()
-    {
-        return include __DIR__ . '/config/module.config.php';
-    }
-    /**
-     * getAutoloaderConfig.
-     * 
-     * @return array
+     * @see \Zend\ModuleManager\Feature\AutoloaderProviderInterface
      */
     public function getAutoloaderConfig()
     {
@@ -30,5 +25,15 @@ class Module
                 ),
             ),
         );
+    }
+    /**
+     * Returns configuration to merge with application configuration.
+     * 
+     * @return array|\Traversable
+     * @see \Zend\ModuleManager\Feature\ConfigProviderInterface
+     */
+    public function getConfig()
+    {
+        return include __DIR__ . '/config/module.config.php';
     }
 }
