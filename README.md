@@ -62,7 +62,7 @@ In `config/global.conf` or `module/Application/config/module.conf.php` add:
 Update
 --------------------------------------------------------------------------------
 
-Chdir into Your projects root directory (where `composer.json` resides)
+Chdir into projects root directory (where `composer.json` resides)
 and run the following commands:
 
 ~~~~ bash
