@@ -1,13 +1,25 @@
 WebsafeZfModZfcUserI18nPlPl
 ================================================================================
 
-Polish pl_PL translation for the [ZF-Commons/ZfcUser] module.
+Polish **pl_PL** translation for the [ZF-Commons/ZfcUser] module.
 
 Polskie tłumaczenie / paczka językowa dla modułu [ZF-Commons/ZfcUser].
 
 
+* * *
 
-Installation
+
+ + [Installation](#installation)
+ + [Configuration](#configuration)
+ + [Updating](#updating)
+ + [Contributing](#contributing)
+ + [Compiling](#compiling)
+
+
+* * *
+
+
+Installation <a id="installation"></a>
 --------------------------------------------------------------------------------
 
 Chdir into Your projects root directory (where `composer.json` resides)
@@ -19,10 +31,10 @@ composer require websafe/zf-mod-zfc-user-i18n-pl-pl:dev-master --prefer-dist
 
 
 
-Configuration
+Configuration <a id="configuration"></a>
 --------------------------------------------------------------------------------
 
-### Enable the module in Your ZF2 application
+### Enabling the language pack module in Your ZF2 application
 
 In `config/application.conf.php` add `WebsafeZfModZfcUserI18nPlPl` after 
 `ZfcUser`:
@@ -60,7 +72,7 @@ In `config/global.conf` or `module/Application/config/module.conf.php` add:
 
 
 
-Update
+Updating <a id="updating"></a>
 --------------------------------------------------------------------------------
 
 Chdir into projects root directory (where `composer.json` resides)
@@ -73,13 +85,23 @@ composer update websafe/zf-mod-zfc-user-i18n-pl-pl
 
 
 
-Contributing
+Contributing <a id="contributing"></a>
 --------------------------------------------------------------------------------
 
-If You want to help with the polish translation, just [edit pl_pl.po] and after
-all send a pull request.
+If You want to help with the polish translation, just [edit pl_PL.po] located
+in `./language` and after all send a pull request. When You're not familiar
+with editing `.po` files - simply [report an issue].
 
+
+
+Compiling .po files to .mo files <a id="compiling"></a>
+--------------------------------------------------------------------------------
+
+~~~~ bash
+msgfmt -cv -o language/pl_PL.mo language/pl_PL.po
+~~~~
 
 
 [ZF-Commons/ZfcUser]: https://github.com/ZF-Commons/ZfcUser "ZfcUser is a user registration and authentication module for Zend Framework 2."
-[edit pl_pl.po]: https://github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/edit/master/language/pl_PL.po
+[edit pl_PL.po]: https://github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/edit/master/language/pl_PL.po
+[report an issue]: https://github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/issues
