@@ -13,7 +13,7 @@ Polskie tłumaczenie / paczka językowa dla modułu [ZF-Commons/ZfcUser].
  + [Configuration](#configuration)
  + [Updating](#updating)
  + [Contributing](#contributing)
- + [Compiling](#compiling)
+ + [Compiling](#compiling-po-files-to-mo-files)
 
 
 * * *
