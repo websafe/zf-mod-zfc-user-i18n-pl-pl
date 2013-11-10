@@ -1,6 +1,6 @@
 {
     "name": "websafe/zf-mod-zfc-user-i18n-pl-pl",
-    "description": "Polish pl_PL translation / language pack for the [ZF-Commons/ZfcUser] module. Polskie tłumaczenie / paczka językowa dla modułu [ZF-Commons/ZfcUser].",
+    "description": "Polish pl_PL translation / language pack module for the [ZF-Commons/ZfcUser] module. Moduł polskiego tłumaczenia / paczka językowa dla modułu [ZF-Commons/ZfcUser].",
     "version": "0.0.1",
     "type": "zf-module",
     "license": "MIT",
