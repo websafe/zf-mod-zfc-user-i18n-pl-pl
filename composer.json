@@ -34,7 +34,7 @@
         "source": "https://github.com/websafe/zf-mod-zfc-user-i18n-pl-pl"
     },
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=5.3.3"
     },
     "suggest": {
         "zf-commons/zfc-user": "This module is a translation / language pack for [zf-commons/zfc-user], so You probably should install it too."
