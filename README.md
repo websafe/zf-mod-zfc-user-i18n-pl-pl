@@ -13,7 +13,7 @@ Installation
 Chdir into Your projects root directory (where `composer.json` resides)
 and run the following command:
 
-~~~~
+~~~~ bash
 composer require websafe/zf-mod-zfc-user-i18n-pl-pl:dev-master
 ~~~~
 
