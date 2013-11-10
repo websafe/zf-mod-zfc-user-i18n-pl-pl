@@ -1,9 +1,14 @@
+# Polish pl_PL translation for ZF-Commons/ZfcUser v. 0.0.1.
+# Copyright (C) 2013 Thomas Szteliga
+# This file is distributed under the same license as the ZfcUser package.
+# Thomas Szteliga <ts@websafe.pl>, 2013.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: ZfcUser\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: ZfcUser 0.0.1\n"
+"Report-Msgid-Bugs-To: zf-devteam@zend.com\n"
 "POT-Creation-Date: 2013-11-08 00:38+0100\n"
-"PO-Revision-Date: 2013-11-08 00:50+0100\n"
+"PO-Revision-Date: 2013-11-10 04:50+0100\n"
 "Last-Translator: Thomas Szteliga <ts@websafe.pl>\n"
 "Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
 "MIME-Version: 1.0\n"
@@ -76,7 +81,8 @@ msgstr "Konto o podanym identyfikatorze już istnieje"
 
 #: src/ZfcUser/language/msgIds.php:22
 msgid "Authentication failed. Please try again."
-msgstr "Logowanie nie powiodło się. Proszę spróbuj ponownie."
+msgstr "Logowanie nie powiodło się."
+msgstr " Proszę spróbuj ponownie."
 
 #: view/zfc-user/user/login.phtml:31
 msgid "Not registered?"
@@ -97,7 +103,8 @@ msgstr "Pomyślnie zaktualizowano e-mail."
 
 #: view/zfc-user/user/changeemail.phtml:5
 msgid "Unable to update your email address. Please try again."
-msgstr "Nie udało się zaktualizować Twojego adresu e-mail. Proszę spróbuj ponownie."
+msgstr "Nie udało się zaktualizować Twojego adresu e-mail."
+msgstr " Proszę spróbuj ponownie."
 
 #: view/zfc-user/user/changepassword.phtml:1
 #, php-format
@@ -110,7 +117,8 @@ msgstr "Pomyślnie zmieniono hasło."
 
 #: view/zfc-user/user/changepassword.phtml:5
 msgid "Unable to update your password. Please try again."
-msgstr "Nie udało się zaktualizować Twojego hasła. Proszę spróbuj ponownie."
+msgstr "Nie udało się zaktualizować Twojego hasła."
+msgstr " Proszę spróbuj ponownie."
 
 #: view/zfc-user/user/index.phtml:2
 msgid "Hello"
