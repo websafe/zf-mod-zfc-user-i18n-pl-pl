@@ -6,8 +6,9 @@ return array(
     'translator'      => array(
         'translation_files' => array(
             array(
-                'type'     => 'gettext',
+                'type'      => 'gettext',
                 'filename'  => __DIR__ . '/../language/pl_PL.mo',
+                'locale'    => 'pl_PL'
             ),
         ),
     ),
