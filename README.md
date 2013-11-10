@@ -23,7 +23,7 @@ Configuration
 --------------------------------------------------------------------------------
 
 
-### Enable the module
+### Enable the module in Your ZF2 application
 
 In `config/application.conf.php` add `WebsafeZfModZfcUserI18nPlPl` after 
 `ZfcUser`:
@@ -59,7 +59,7 @@ In `config/global.conf` or `module/Application/config/module.conf.php` add:
 
 
 
-Updating
+Update
 --------------------------------------------------------------------------------
 
 Chdir into Your projects root directory (where `composer.json` resides)
@@ -67,10 +67,18 @@ and run the following commands:
 
 ~~~~ bash
 rm -rf ~/.composer/cache/files/websafe/zf-mod-zfc-user-i18n-pl-pl/
-composer update websafe/zf-mod-zfc-user-i18n-pl-pl:dev-master --prefer-dist
+composer update websafe/zf-mod-zfc-user-i18n-pl-pl
 ~~~~
 
 
 
+Contributing
+--------------------------------------------------------------------------------
+
+If You want to help with the polish translation, just [edit pl_pl.po] and after
+all send a pull request.
+
+
 
 [ZF-Commons/ZfcUser]: https://github.com/ZF-Commons/ZfcUser "ZfcUser is a user registration and authentication module for Zend Framework 2."
+[edit pl_pl.po]: https://github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/edit/master/language/pl_PL.po
