@@ -9,6 +9,8 @@
         "module",
         "translation",
         "i18n",
+        "language pack",
+        "ZF-Commons",
         "ZfcUser",
         "PL",
         "pl_PL",
