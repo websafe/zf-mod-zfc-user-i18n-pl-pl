@@ -1,7 +1,8 @@
 WebsafeZfModZfcUserI18nPlPl
 ================================================================================
 
-Polish **pl_PL** translation for the [ZF-Commons/ZfcUser] module.
+Polish **pl_PL** translation / language pack module for the [ZF-Commons/ZfcUser]
+module.
 
 Polskie tłumaczenie / paczka językowa dla modułu [ZF-Commons/ZfcUser].
 
@@ -82,6 +83,10 @@ and run the following commands:
 rm -rf ~/.composer/cache/files/websafe/zf-mod-zfc-user-i18n-pl-pl/
 composer update websafe/zf-mod-zfc-user-i18n-pl-pl
 ~~~~
+
+The `rm -rf ...` part is needed when the module was installed with 
+`--prefer-dist`. Without cleaning up the cache before installing - [Composer]
+will probably stick to a cached version.
 
 
 
