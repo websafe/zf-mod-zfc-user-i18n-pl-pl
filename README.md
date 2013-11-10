@@ -1,36 +1,26 @@
 WebsafeZfModZfcUserI18nPlPl
-===============================================================================
+================================================================================
 
 Polish pl_PL translation for the [ZF-Commons/ZfcUser] module.
 
-Polskie tłumaczenie dla modułu [ZF-Commons/ZfcUser].
+Polskie tłumaczenie / paczka językowa dla modułu [ZF-Commons/ZfcUser].
 
 
 
 Installation
--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
-Add `websafe/zf-mod-zfc-user-i18n-pl-pl` in the `required` section of
-`composer.json`:
-
-~~~~ javascript
-    "require": {
-        "zf-commons/zfc-user": "dev-master",
-        "websafe/zf-mod-zfc-user-i18n-pl-pl": "dev-master",
-~~~~
-
-
-and run:
+Chdir into Your projects root directory (where `composer.json` resides)
+and run the following command:
 
 ~~~~
-composer update
+composer require websafe/zf-mod-zfc-user-i18n-pl-pl:dev-master
 ~~~~
-
 
 
 
 Configuration
--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 
 ### Enable the module
@@ -66,43 +56,6 @@ In `config/global.conf` or `module/Application/config/module.conf.php` add:
 
 But this may not be required - depends on how the locale is initialized
 in Your application.
-
-
-
-Screenshots
--------------------------------------------------------------------------------
-
-
-### Login screen
-
-![Screenshot of an example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale](https://raw.github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/master/assets/screenshot-login.png "Screenshot of an example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale")
-
-
-* * *
-
-
-### Register screen
-
-![Screenshot of an example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale](https://raw.github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/master/assets/screenshot-register.png "Screenshot of an example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale")
-
-
-* * *
-
-
-### Change e-mail screen
-
-![Screenshot of an example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale](https://raw.github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/master/assets/screenshot-change-email.png "Screenshot of an example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale")
-
-
-* * *
-
-
-### Change password screen
-
-![Screenshot of an example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale](https://raw.github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/master/assets/screenshot-change-password.png "Screenshot of an example ZF application utilizing modules ZfcUser and WebsafeZfModZfcUserI18nPlPl with a pl_PL locale")
-
-
-* * *
 
 
 [ZF-Commons/ZfcUser]: https://github.com/ZF-Commons/ZfcUser "ZfcUser is a user registration and authentication module for Zend Framework 2."
