@@ -22,7 +22,6 @@ composer require websafe/zf-mod-zfc-user-i18n-pl-pl:dev-master --prefer-dist
 Configuration
 --------------------------------------------------------------------------------
 
-
 ### Enable the module in Your ZF2 application
 
 In `config/application.conf.php` add `WebsafeZfModZfcUserI18nPlPl` after 
@@ -37,6 +36,8 @@ return array(
         'WebsafeZfModZfcUserI18nPlPl',
         // ...
     ),
+    // ...
+);
 ~~~~
 
 
