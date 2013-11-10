@@ -1,4 +1,6 @@
 TODO
 ====
 
- + README.md
+ + Simplify `README.md`.
+
+
