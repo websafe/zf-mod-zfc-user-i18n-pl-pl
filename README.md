@@ -14,7 +14,7 @@ Chdir into Your projects root directory (where `composer.json` resides)
 and run the following command:
 
 ~~~~ bash
-composer require websafe/zf-mod-zfc-user-i18n-pl-pl:dev-master
+composer require websafe/zf-mod-zfc-user-i18n-pl-pl:dev-master --prefer-dist
 ~~~~
 
 
@@ -41,7 +41,10 @@ return array(
 
 
 
-### Set the locale
+#### Set the locale
+
+This step is not really required - it depends on how the locale is initialized
+in Your application. 
 
 In `config/global.conf` or `module/Application/config/module.conf.php` add:
 
@@ -54,8 +57,20 @@ In `config/global.conf` or `module/Application/config/module.conf.php` add:
     // ...
 ~~~~
 
-But this may not be required - depends on how the locale is initialized
-in Your application.
+
+
+Updating
+--------------------------------------------------------------------------------
+
+Chdir into Your projects root directory (where `composer.json` resides)
+and run the following commands:
+
+~~~~ bash
+rm -rf ~/.composer/cache/files/websafe/zf-mod-zfc-user-i18n-pl-pl/
+composer update websafe/zf-mod-zfc-user-i18n-pl-pl:dev-master --prefer-dist
+~~~~
+
+
 
 
 [ZF-Commons/ZfcUser]: https://github.com/ZF-Commons/ZfcUser "ZfcUser is a user registration and authentication module for Zend Framework 2."
