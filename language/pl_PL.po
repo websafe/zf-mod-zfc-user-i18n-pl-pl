@@ -81,8 +81,9 @@ msgstr "Konto o podanym identyfikatorze już istnieje"
 
 #: src/ZfcUser/language/msgIds.php:22
 msgid "Authentication failed. Please try again."
-msgstr "Logowanie nie powiodło się."
-msgstr " Proszę spróbuj ponownie."
+msgstr ""
+"Logowanie nie powiodło się. "
+"Proszę spróbuj ponownie."
 
 #: view/zfc-user/user/login.phtml:31
 msgid "Not registered?"
@@ -103,8 +104,9 @@ msgstr "Pomyślnie zaktualizowano e-mail."
 
 #: view/zfc-user/user/changeemail.phtml:5
 msgid "Unable to update your email address. Please try again."
-msgstr "Nie udało się zaktualizować Twojego adresu e-mail."
-msgstr " Proszę spróbuj ponownie."
+msgstr ""
+"Nie udało się zaktualizować Twojego adresu e-mail. "
+"Proszę spróbuj ponownie."
 
 #: view/zfc-user/user/changepassword.phtml:1
 #, php-format
@@ -117,8 +119,9 @@ msgstr "Pomyślnie zmieniono hasło."
 
 #: view/zfc-user/user/changepassword.phtml:5
 msgid "Unable to update your password. Please try again."
-msgstr "Nie udało się zaktualizować Twojego hasła."
-msgstr " Proszę spróbuj ponownie."
+msgstr ""
+"Nie udało się zaktualizować Twojego hasła. "
+"Proszę spróbuj ponownie."
 
 #: view/zfc-user/user/index.phtml:2
 msgid "Hello"
