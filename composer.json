@@ -34,7 +34,8 @@
         "source": "https://github.com/websafe/zf-mod-zfc-user-i18n-pl-pl"
     },
     "require": {
-        "php": ">=5.3.3"
+        "php": ">=5.3.3",
+        "websafe/zf-mod-zfc-user-i18n-pl-pl": "0.0.1"
     },
     "autoload": {
         "psr-0": {
@@ -43,5 +44,10 @@
         "classmap": [
             "./Module.php"
         ]
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.1"
+        }
+    }            
 }
