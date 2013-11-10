@@ -51,5 +51,9 @@
         "branch-alias": {
             "dev-master": "0.0.1"
         }
-    }            
+    },
+    "dist": {
+        "url": "https://github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/archive/master.zip",
+        "type": "zip"
+    }
 }
