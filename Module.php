@@ -6,7 +6,7 @@ use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 
 /**
- * Module
+ * Polish pl_PL translation / language pack module for ZF-Commons/ZfcUser.
  */
 class Module implements AutoloaderProviderInterface, ConfigProviderInterface
 {
