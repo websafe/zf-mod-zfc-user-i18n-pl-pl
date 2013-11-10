@@ -97,9 +97,14 @@ with editing `.po` files - simply [report an issue].
 Compiling .po files to .mo files
 --------------------------------------------------------------------------------
 
+There's no need to compile `.po` files after the installation or before sending 
+pull requests, but if you modify the `.po` file locally, recompile it by 
+executing the following command in this modules root directory:
+
 ~~~~ bash
 msgfmt -cv -o language/pl_PL.mo language/pl_PL.po
 ~~~~
+
 
 
 [ZF-Commons/ZfcUser]: https://github.com/ZF-Commons/ZfcUser "ZfcUser is a user registration and authentication module for Zend Framework 2."
