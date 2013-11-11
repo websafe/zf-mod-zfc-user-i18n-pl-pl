@@ -115,3 +115,4 @@ msgfmt -cv -o language/pl_PL.mo language/pl_PL.po
 [ZF-Commons/ZfcUser]: https://github.com/ZF-Commons/ZfcUser "ZfcUser is a user registration and authentication module for Zend Framework 2."
 [edit pl_PL.po]: https://github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/edit/master/language/pl_PL.po
 [report an issue]: https://github.com/websafe/zf-mod-zfc-user-i18n-pl-pl/issues/new
+[Composer]: http://getcomposer.org/ "Dependency Manager for PHP"
